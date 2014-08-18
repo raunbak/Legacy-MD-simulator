@@ -1,0 +1,72 @@
+﻿Build started 27-04-2014 00:07:32.
+     1>Project "C:\Users\raunbak\Dropbox\BACHELOR\MD-Sim\MolecularDynamics\MolecularDynamics\MolecularDynamics.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Debug\MD-sim.lastbuildstate".
+       CudaClean:
+         cmd.exe /C "C:\Users\raunbak\AppData\Local\Temp\tmpfbb68915663c4a9aa8f0f3db5b74bd8c.cmd"
+         "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.0\bin\nvcc.exe" -ccbin "c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.0\include"  -G   --keep-dir "Debug" -maxrregcount=0  --machine 32 --compile  -g   -DWIN32 -D_DEBUG -D_CONSOLE -DGSL_DLL -D_UNICODE -DUNICODE -Xcompiler "/EHsc /W3 /nologo /Od /Zi /RTC1 /MDd  " -o "Debug\cuSource.cu.obj" "C:\Users\raunbak\Dropbox\BACHELOR\MD-Sim\MolecularDynamics\MolecularDynamics\cuSource.cu" -clean
+         
+         C:\Users\raunbak\Dropbox\BACHELOR\MD-Sim\MolecularDynamics\MolecularDynamics>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.0\bin\nvcc.exe" -ccbin "c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.0\include"  -G   --keep-dir "Debug" -maxrregcount=0  --machine 32 --compile  -g   -DWIN32 -D_DEBUG -D_CONSOLE -DGSL_DLL -D_UNICODE -DUNICODE -Xcompiler "/EHsc /W3 /nologo /Od /Zi /RTC1 /MDd  " -o "Debug\cuSource.cu.obj" "C:\Users\raunbak\Dropbox\BACHELOR\MD-Sim\MolecularDynamics\MolecularDynamics\cuSource.cu" -clean 
+         Deleting file "Debug\cuSource.cu.deps".
+       InitializeBuildStatus:
+         Creating "Debug\MD-sim.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       AddCudaCompileDeps:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\cl.exe /E /nologo /showIncludes /TP /D__CUDACC__ /DWIN32 /D_DEBUG /D_CONSOLE /DGSL_DLL /D_UNICODE /DUNICODE /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.0\include" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.0\bin" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.0\include" /I. /FIcuda_runtime.h /c C:\Users\raunbak\Dropbox\BACHELOR\MD-Sim\MolecularDynamics\MolecularDynamics\cuSource.cu 
+       CudaBuild:
+         Compiling CUDA source file cuSource.cu...
+         cmd.exe /C "C:\Users\raunbak\AppData\Local\Temp\tmpb0c15a47e1a540cda1193f1cfef50689.cmd"
+         "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.0\bin\nvcc.exe" -gencode=arch=compute_10,code=\"sm_10,compute_10\" --use-local-env --cl-version 2010 -ccbin "c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.0\include"  -G   --keep-dir "Debug" -maxrregcount=0  --machine 32 --compile  -g   -DWIN32 -D_DEBUG -D_CONSOLE -DGSL_DLL -D_UNICODE -DUNICODE -Xcompiler "/EHsc /W3 /nologo /Od /Zi /RTC1 /MDd  " -o "Debug\cuSource.cu.obj" "C:\Users\raunbak\Dropbox\BACHELOR\MD-Sim\MolecularDynamics\MolecularDynamics\cuSource.cu"
+         
+         C:\Users\raunbak\Dropbox\BACHELOR\MD-Sim\MolecularDynamics\MolecularDynamics>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.0\bin\nvcc.exe" -gencode=arch=compute_10,code=\"sm_10,compute_10\" --use-local-env --cl-version 2010 -ccbin "c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.0\include"  -G   --keep-dir "Debug" -maxrregcount=0  --machine 32 --compile  -g   -DWIN32 -D_DEBUG -D_CONSOLE -DGSL_DLL -D_UNICODE -DUNICODE -Xcompiler "/EHsc /W3 /nologo /Od /Zi /RTC1 /MDd  " -o "Debug\cuSource.cu.obj" "C:\Users\raunbak\Dropbox\BACHELOR\MD-Sim\MolecularDynamics\MolecularDynamics\cuSource.cu" 
+         cuSource.cu
+         tmpxft_00001054_00000000-2_cuSource.cudafe1.gpu
+         tmpxft_00001054_00000000-7_cuSource.cudafe2.gpu
+         cuSource.cu
+         ptxas C:/Users/raunbak/AppData/Local/Temp/tmpxft_00001054_00000000-4_cuSource.ptx, line 2893; : warning : Double is not supported. Demoting to float
+         tmpxft_00001054_00000000-2_cuSource.cudafe1.cpp
+         tmpxft_00001054_00000000-12_cuSource.ii
+     1>c:\users\raunbak\dropbox\bachelor\md-sim\moleculardynamics\moleculardynamics\constants.h(11): warning C4305: 'initializing' : truncation from 'double' to 'const float'
+     1>c:\users\raunbak\dropbox\bachelor\md-sim\moleculardynamics\moleculardynamics\constants.h(21): warning C4305: 'initializing' : truncation from 'int' to 'const float'
+     1>c:\users\raunbak\dropbox\bachelor\md-sim\moleculardynamics\moleculardynamics\constants.h(22): warning C4305: 'initializing' : truncation from 'double' to 'const float'
+     1>c:\users\raunbak\dropbox\bachelor\md-sim\moleculardynamics\moleculardynamics\constants.h(23): warning C4305: 'initializing' : truncation from 'double' to 'const float'
+     1>c:\users\raunbak\dropbox\bachelor\md-sim\moleculardynamics\moleculardynamics\constants.h(24): warning C4305: 'initializing' : truncation from 'double' to 'const float'
+     1>c:\users\raunbak\dropbox\bachelor\md-sim\moleculardynamics\moleculardynamics\constants.h(25): warning C4305: 'initializing' : truncation from 'double' to 'const float'
+     1>c:\users\raunbak\dropbox\bachelor\md-sim\moleculardynamics\moleculardynamics\constants.h(26): warning C4305: 'initializing' : truncation from 'double' to 'const float'
+         Deleting file "tmpxft_00001054_00000000-8_cuSource.cpp3.o".
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.0\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D GSL_DLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Debug\MD-sim.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+     1>c:\users\raunbak\dropbox\bachelor\md-sim\moleculardynamics\moleculardynamics\constants.h(11): warning C4305: 'initializing' : truncation from 'double' to 'const float'
+     1>c:\users\raunbak\dropbox\bachelor\md-sim\moleculardynamics\moleculardynamics\constants.h(21): warning C4305: 'initializing' : truncation from 'int' to 'const float'
+     1>c:\users\raunbak\dropbox\bachelor\md-sim\moleculardynamics\moleculardynamics\constants.h(22): warning C4305: 'initializing' : truncation from 'double' to 'const float'
+     1>c:\users\raunbak\dropbox\bachelor\md-sim\moleculardynamics\moleculardynamics\constants.h(23): warning C4305: 'initializing' : truncation from 'double' to 'const float'
+     1>c:\users\raunbak\dropbox\bachelor\md-sim\moleculardynamics\moleculardynamics\constants.h(24): warning C4305: 'initializing' : truncation from 'double' to 'const float'
+     1>c:\users\raunbak\dropbox\bachelor\md-sim\moleculardynamics\moleculardynamics\constants.h(25): warning C4305: 'initializing' : truncation from 'double' to 'const float'
+     1>c:\users\raunbak\dropbox\bachelor\md-sim\moleculardynamics\moleculardynamics\constants.h(26): warning C4305: 'initializing' : truncation from 'double' to 'const float'
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.0\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D GSL_DLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\MD-sim.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt FastEnsemble.cpp FastIon.cpp forces.cpp integrator.cpp Main.cpp
+         Main.cpp
+         integrator.cpp
+         forces.cpp
+         FastIon.cpp
+         FastEnsemble.cpp
+         Generating Code...
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\raunbak\Dropbox\BACHELOR\MD-Sim\MolecularDynamics\Debug\MD-sim.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.0\lib\Win32" libgsl_dll_d.lib libgslcblas_dll_d.lib cudart.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\MD-sim.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\raunbak\Dropbox\BACHELOR\MD-Sim\MolecularDynamics\Debug\MD-sim.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\raunbak\Dropbox\BACHELOR\MD-Sim\MolecularDynamics\Debug\MD-sim.lib" /MACHINE:X86 Debug\cuSource.cu.obj
+         Debug\FastEnsemble.obj
+         Debug\FastIon.obj
+         Debug\forces.obj
+         Debug\integrator.obj
+         Debug\Main.obj
+         Debug\stdafx.obj
+     1>FastEnsemble.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/INCREMENTAL:NO' specification
+         MolecularDynamics.vcxproj -> C:\Users\raunbak\Dropbox\BACHELOR\MD-Sim\MolecularDynamics\Debug\MD-sim.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\raunbak\Dropbox\BACHELOR\MD-Sim\MolecularDynamics\Debug\MD-sim.exe;#1" /manifest "Debug\MD-sim.exe.intermediate.manifest"
+       FinalizeBuildStatus:
+         Deleting file "Debug\MD-sim.unsuccessfulbuild".
+         Touching "Debug\MD-sim.lastbuildstate".
+     1>Done Building Project "C:\Users\raunbak\Dropbox\BACHELOR\MD-Sim\MolecularDynamics\MolecularDynamics\MolecularDynamics.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:10.09
